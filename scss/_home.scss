@@ -1,0 +1,21 @@
+.main-header{
+    background-color: $silver;
+    height: 100vh;
+}
+
+.main-header .main-nav{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-header .main-nav .logo{
+    width: 120px;
+}
+
+.main-header .main-nav .nav-items ul{
+    display: flex;
+}

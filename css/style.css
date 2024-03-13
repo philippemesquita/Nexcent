@@ -9,6 +9,27 @@
 
 button {
   cursor: pointer;
+  background-color: #43a046;
+  padding: 14px 32px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-header {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn-header-outline {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #43a046;
+}
+
+.btn-header-outline:hover {
+  border: 1px solid #43a046;
 }
 
 svg {
@@ -21,6 +42,28 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.main-header {
+  background-color: #f5f7fa;
+  height: 100vh;
+}
+
+.main-header .main-nav {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-header .main-nav .logo {
+  width: 120px;
+}
+
+.main-header .main-nav .nav-items ul {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
