@@ -54,12 +54,8 @@
 }
 
 .hero-section h1{
-    width: 657px;    
+    max-width: 657px;    
     margin-bottom: 16px;
-}
-
-.hero-section h1 span{
-    color: $primary;
 }
 
 .hero-section p{
@@ -91,7 +87,7 @@
 }
 
 .community .community-head{
-    width: 542px;
+    max-width: 542px;
     margin: auto;
     text-align: center;
 }
@@ -102,12 +98,13 @@
 
 .community-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 16px;
 }
 
 .community-content .community-card{
-    width: 300px;
+    max-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;

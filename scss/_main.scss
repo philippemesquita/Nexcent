@@ -1,0 +1,173 @@
+.main-community{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main-community .img-unlock{
+    max-width: 50%;
+}
+
+.main-community .community-head{
+    max-width: 50%;
+}
+
+.main-community .community-head h2{
+    margin-bottom: 16px;
+}
+
+.main-community .community-head > p{
+    margin-bottom: 32px;
+}
+
+.main-achievements{
+    background-color: $silver;
+}
+
+.achievements{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $silver;
+    padding: 65px 0;
+    margin: 48px 0;
+}
+
+.achievements .achievements-heading{
+    max-width: 50%;
+}
+
+.achievements .achievements-count{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: flex-end;
+}
+
+.achievements .achievements-count .row{
+    display: flex;
+    width: 255px;
+    padding-bottom: 20px;
+}
+
+.achievements .achievements-count .row .row-icon{
+    padding-right: 10px;
+}
+
+.calender{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0;
+}
+
+.calender .img-calender{
+    max-width: 440px;
+}
+
+.calender .calender-head{
+    max-width: 660px;
+}
+
+.calender .calender-head h2{
+    padding-bottom: 16px;
+}
+
+.calender .calender-head p{
+    padding-bottom: 32px;
+}
+
+.main-customers{
+    background-color: $silver;
+}
+
+.customers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 48px 0;
+}
+
+.customers .img-customers{
+    max-width: 50%;
+}
+
+.customers .customers-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.customers .customers-head p {
+    padding-bottom: 20px;
+}
+
+.customers .customers-head > h4{
+    padding-bottom: 20px;
+}
+
+.customers-row .customers-clients{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customers-row .customers-clients img{
+    width: 48px;
+}
+
+.last-section{
+    padding: 48px 0;
+    margin-bottom: 96px;
+}
+
+.last-section .last-section-head{
+    max-width: 542px;
+    margin: auto;
+    text-align: center;
+}
+
+.last-section .last-section-head h2{
+    padding-bottom: 8px;
+}
+
+.last-section .last-section-head p{
+    padding-bottom: 16px;
+}
+
+.last-section .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.last-section .card .card-img{
+    max-width: 368px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.last-section .card .card-inner{
+    position: absolute;
+    width: 317px;
+    background-color: $silver;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    bottom: -55px;
+    box-shadow: 0 8px 16px rgba($gray, 0.4)
+}
+
+.last-section .card .card-inner h5{
+    color: $gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 16px;
+}

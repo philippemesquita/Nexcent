@@ -29,6 +29,12 @@ h3{
     font-size: 28px;
 }
 
+h4{
+    color: $primary;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .text-body-1{
     font-size: 16px;
     color: $gray;
@@ -40,9 +46,13 @@ h3{
 }
 
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
     padding: 0 50px;
+}
+
+.color-primary{
+    color: $primary;
 }
 
 button{
@@ -63,14 +73,14 @@ button:hover{
     padding: 10px 20px;
 }
 
-.btn-header-outline{
+.btn-header-outline, .btn-outline{
     padding: 10px 20px;
     background-color: transparent;
     color: $primary;
     transition: 0.2s ease-out;
 }
 
-.btn-header-outline:hover{
+.btn-header-outline:hover, .btn-outline:hover{
     background-color: $shade-3;
     color: $white;
     
