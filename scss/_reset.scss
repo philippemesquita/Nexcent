@@ -1,0 +1,99 @@
+@import "../scss/colors";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+h2{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h3{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+h4{
+    color: $primary;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-body-1{
+    font-size: 16px;
+    color: $gray;
+}
+
+.text-body-2{
+    font-size: 14px;
+    color: $gray;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.color-primary{
+    color: $primary;
+}
+
+button{
+    cursor: pointer;
+    background-color: $primary;
+    padding: 14px 32px;
+    color: $white;
+    border-radius: 4px;
+    border: none;
+    transition: 0.2s ease-out;
+}
+
+button:hover{
+    background-color: $shade-3;
+}
+
+.btn-header{
+    padding: 10px 20px;
+}
+
+.btn-header-outline, .btn-outline{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: $primary;
+    transition: 0.2s ease-out;
+}
+
+.btn-header-outline:hover, .btn-outline:hover{
+    background-color: $shade-3;
+    color: $white;
+    
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}

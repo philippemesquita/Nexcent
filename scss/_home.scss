@@ -1,0 +1,123 @@
+.main-header{
+    background-color: $silver;
+}
+
+.main-header .main-nav{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.main-header .main-nav .logo{
+    width: 155px;
+}
+
+.main-header .main-nav .nav-items ul{
+    display: flex;
+}
+
+.main-header .main-nav .nav-items ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.main-header .main-nav .nav-items a{
+    color: $black;
+    display: inline-block;
+}
+
+.main-header .main-nav .nav-items a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: $primary;
+    transition: width .3s;
+}
+
+.main-header .main-nav .nav-items a:hover::after{
+    width: 100%;
+}
+
+.main-header .main-nav .nav-items .active{
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 56px;
+}
+
+.hero-section h1{
+    max-width: 657px;    
+    margin-bottom: 16px;
+}
+
+.hero-section p{
+    color: $gray;
+    margin-bottom: 32px;
+}
+
+.our-clients{
+    padding: 40px 0px;
+}
+
+.our-clients-head{
+    text-align: center;
+}
+
+.our-clients .clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.our-clients .clients img{
+    width: 48px;
+}
+
+.community{
+    padding: 40px 0;
+}
+
+.community .community-head{
+    max-width: 542px;
+    margin: auto;
+    text-align: center;
+}
+
+.community .community-head h2{
+    padding-bottom: 8px;
+}
+
+.community-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+.community-content .community-card{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 32px;
+}
+
+.community-content .community-card > h3{
+    padding-bottom: 8px;
+}
+
+.community-content .community-card img{
+    width: 56px;
+    padding-bottom: 16px;
+}
