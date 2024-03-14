@@ -11,6 +11,40 @@
     font-family: "Inter", sans-serif;
 }
 
+h1{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+h2{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h3{
+    color: $dark-gray;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.text-body-1{
+    font-size: 16px;
+    color: $gray;
+}
+
+.text-body-2{
+    font-size: 14px;
+    color: $gray;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+    padding: 0 50px;
+}
+
 button{
     cursor: pointer;
     background-color: $primary;
@@ -18,22 +52,28 @@ button{
     color: $white;
     border-radius: 4px;
     border: none;
+    transition: 0.2s ease-out;
+}
+
+button:hover{
+    background-color: $shade-3;
 }
 
 .btn-header{
     padding: 10px 20px;
-    font-size: 14px;
 }
 
 .btn-header-outline{
     padding: 10px 20px;
-    font-size: 14px;
     background-color: transparent;
-    color: black;
+    color: $primary;
+    transition: 0.2s ease-out;
 }
 
 .btn-header-outline:hover{
-    border: 1px solid $primary;
+    background-color: $shade-3;
+    color: $white;
+    
 }
 
 svg{
