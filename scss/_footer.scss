@@ -1,0 +1,130 @@
+.main-cta{
+    background-color: $silver;
+}
+
+.main-cta .cta{
+    max-width: 890px;
+    margin: auto;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.main-cta .cta> h1{
+    color: $black;
+    padding-bottom: 32px;
+}
+
+.main-footer{
+    background-color: $black;
+}
+
+.main-footer .footer-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 0;
+}
+
+.main-footer .footer-inner .copyrigth{
+    max-width: 350px;
+}
+
+.main-footer .footer-inner .copyrigth img{
+    padding-bottom: 40px;
+    width: 190px;
+}
+
+.main-footer .footer-inner .copyrigth .socials{
+    padding-top: 40px;
+}
+
+.main-footer .footer-inner .copyrigth .socials i{
+    color: $silver;
+    background-color: #3B464C;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.main-footer .footer-inner .footer-content{
+    max-width: 653px;
+    display: flex;
+    gap: 100px;
+}
+
+.main-footer .footer-inner .footer-content .company{
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+}
+
+.main-footer .footer-inner .footer-content .company a{
+    color: $white;
+    font-size: 14px;
+    padding-bottom: 12px;
+    font-weight: 100;
+}
+
+.main-footer .footer-inner .footer-content .company .title-footer{
+    color: $white;
+    padding-bottom: 24px;
+}
+
+.main-footer .footer-inner .footer-content .support{
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+}
+
+.main-footer .footer-inner .footer-content .support a{
+    color: $white;
+    font-size: 14px;
+    padding-bottom: 12px;
+    font-weight: 100;
+}
+
+
+.main-footer .footer-inner .footer-content .support .title-footer{
+    color: $white;
+    padding-bottom: 24px;
+}
+
+.main-footer .footer-inner .footer-content .input .title-footer{
+    color: $white;
+    padding-bottom: 24px;
+}
+
+.main-footer .footer-inner .footer-support .input .title-footer{
+    color: $white;
+    padding-bottom: 24px;
+}
+
+.main-footer .footer-inner .footer-content .input input{
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3B464C;
+}
+
+.main-footer .footer-inner .footer-content .input input:focus{
+    border: 1px solid $white;
+    color: $white;
+}
+
+.main-footer .footer-inner .footer-content .input .input-wrapper{
+    position: relative;
+}
+
+.main-footer .footer-inner .footer-content .input .input-wrapper i{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: $white;
+    font-weight: 100;
+}
+
+.main-footer .footer-inner .footer-content .input i{
+    position: absolute;
+}
+
