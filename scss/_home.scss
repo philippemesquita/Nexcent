@@ -111,6 +111,8 @@
     flex-direction: column;
     text-align: center;
     padding: 24px 32px;
+    border: 1px solid $silver;
+    border-radius: 8px;
 }
 
 .community-content .community-card > h3{
