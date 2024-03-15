@@ -84,7 +84,6 @@
     font-weight: 100;
 }
 
-
 .main-footer .footer-inner .footer-content .support .title-footer{
     color: $white;
     padding-bottom: 24px;
@@ -101,14 +100,13 @@
 }
 
 .main-footer .footer-inner .footer-content .input input{
-    padding: 5px 10px;
+    padding: 8px 10px;
     border-radius: 8px;
     border: none;
     background-color: #3B464C;
 }
 
 .main-footer .footer-inner .footer-content .input input:focus{
-    border: 1px solid $white;
     color: $white;
 }
 
@@ -118,7 +116,7 @@
 
 .main-footer .footer-inner .footer-content .input .input-wrapper i{
     position: absolute;
-    top: 5px;
+    top: 7px;
     right: 10px;
     color: $white;
     font-weight: 100;
@@ -127,4 +125,3 @@
 .main-footer .footer-inner .footer-content .input i{
     position: absolute;
 }
-
